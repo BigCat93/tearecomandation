@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-12 text-center mb-5">
+        <h1>欢迎使用个性化茶饮推荐系统</h1>
+        <p class="lead">基于中医九种体质理论，为您推荐最适合的茶饮</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 mb-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">中医九种体质</h5>
+                <p class="card-text">了解中医体质理论，发现自己的体质特点。</p>
+                <a href="/constitution" class="btn btn-primary">查看详情</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-6 mb-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">今天喝什么茶？</h5>
+                <p class="card-text">通过简单问卷，获取个性化茶饮推荐。</p>
+                <a href="/recommend" class="btn btn-success">开始测试</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">关于我们</h5>
+                <p class="card-text">
+                    本系统基于先进的机器学习算法和传统中医理论，为您提供个性化的茶饮推荐。
+                    通过分析您的体质特点和健康状况，我们能够为您推荐最适合的茶饮选择。
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 
