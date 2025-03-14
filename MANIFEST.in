@@ -1,0 +1,11 @@
+include LICENSE
+include README.md
+include requirements.txt
+recursive-include static *
+recursive-include templates *
+recursive-include data *
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude *.so
+global-exclude .DS_Store 
